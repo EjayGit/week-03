@@ -51,8 +51,6 @@ function buildButtons(data){
 }
 
 getStuff();
-//     buildButtons(data);
-// }
 
 
 // game logic
