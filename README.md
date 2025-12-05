@@ -50,7 +50,9 @@ This project sets out to provide a user with a clicker game. In this instance, t
 4. Once finished editing and ready to merge, enter the command:
 
     >git add .
+    
     >git commit -m "commit message"
+    
     >git push -u origin branch-name
 
 5. Once you have merged the files on GitHub, you should enter the following command in the git repository, in your terminal, in order to return to the main branch:
