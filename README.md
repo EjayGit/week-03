@@ -39,14 +39,19 @@ This project sets out to provide a user with a clicker game. In this instance, t
 ### How to deploy this app
 1. Start with finding an appropriate directory in your terminal and enter:
 <git clone ssh address-to-repository>
+
 2. Create a branch using the command:
-<git checkout -b branch-name>
+git checkout -b branch-name
+
 3. Edit the files in the repository.
+
 4. Once finished editing and ready to merge, enter the command:
-<git add .>
-<git commit -m "commit message">
-<git push -u origin branch-name>
+git add .
+git commit -m "commit message"
+git push -u origin branch-name
+
 5. Once you have merged the files on GitHub, you should enter the following command in the git repository, in your terminal, in order to return to the main branch:
-<git checkout main>
+git checkout main
+
 6. Finally, to update your main repository with your remote repository, enter the command:
-<git pull>
+git pull
