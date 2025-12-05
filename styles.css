@@ -26,20 +26,31 @@ img{
 .rewardContainer{
     border: 2px black ridge;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 200px;
-    justify-content: space-between;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 #shopContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
 #petContainer{
     display: flex;
     flex-direction: column;
+    border: 2px black ridge;
+    justify-items: center;
 }
 
 .rewardInstances{
