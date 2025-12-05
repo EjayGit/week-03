@@ -38,7 +38,7 @@ This project sets out to provide a user with a clicker game. In this instance, t
 
 ### How to deploy this app
 1. Start with finding an appropriate directory in your terminal and enter:
-git clone ssh address-to-repository
+git clone ssh-address-to-repository
 
 2. Create a branch using the command:
 git checkout -b branch-name
