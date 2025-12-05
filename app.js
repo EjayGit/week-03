@@ -1,5 +1,3 @@
-console.log('Hello Universe');
-
 // data storage
 // global scope
 
@@ -31,9 +29,13 @@ let stringifiedData;
 
 // fetch upgrades from api
 async function getStuff(){
-    const response = await fetch('https://cookie-upgrade-api.vercel.app/api/upgrades');
-    const data = await response.json();
-    buildButtons(data);
+    try{
+        const response = await fetch('https://cookie-upgrade-api.vercel.app/api/upgrades');
+        const data = await response.json();
+        buildButtons(data);
+    } catch (error){
+        console.error(error);
+    }
 }
 
 // Local storage
