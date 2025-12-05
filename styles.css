@@ -49,11 +49,35 @@ img{
 #petContainer{
     display: flex;
     flex-direction: column;
-    border: 2px black ridge;
-    justify-items: center;
+    border: 4px black ridge;
+    border-radius: 20px;
+    text-align: center;
+    font-family: cursive;
+    background-color: floralwhite;
+    color: darkslategrey;
+}
+
+.title{
+    font-size: 32px;
 }
 
 .rewardInstances{
     font-size: 40px;
     color: rgb(107, 107, 73);
+}
+
+#resetBtn{
+    margin: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(157, 205, 228);
+    color: rgb(43, 56, 56);
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.rewardBtnCover{
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.5);
 }
