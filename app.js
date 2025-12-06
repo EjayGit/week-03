@@ -26,13 +26,25 @@ let btnEle;
 let pEle;
 let stringifiedData;
 
+const nameList = [
+    `Two Hands`,
+    `Comb`
+    `Fast Hands`,
+    `Super Comb`,
+    `Fire Hands`,
+    `Mega Brush`,
+    `Ninja Hands`,
+    `Grooming Kit`,
+    `Classical Hair Package`,
+    `Quantum Hair Package`
+];
 
 // fetch upgrades from api
 async function getStuff(){
     try{
         const response = await fetch('https://cookie-upgrade-api.vercel.app/api/upgrades');
         const data = await response.json();
-        buildButtons(data);
+        buildButtons(data, nameList);
     } catch (error){
         console.error(error);
     }
@@ -63,10 +75,10 @@ function rewardClicked(data){
 }
 
 // Build buttons
-function buildButtons(data){ 
+function buildButtons(data, nameList){ 
     for (let i = 0 ; i < data.length ; i++){
         h3Ele = document.createElement('h3');
-        h3Ele.innerText = data[i].name;
+        h3Ele.innerText = nameList[i];
         h4Ele = document.createElement('h4');
         h4Ele.className = 'cost';
         h4Ele.innerText = data[i].cost;
