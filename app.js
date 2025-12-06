@@ -28,7 +28,7 @@ let stringifiedData;
 
 const nameList = [
     `Two Hands`,
-    `Comb`
+    `Comb`,
     `Fast Hands`,
     `Super Comb`,
     `Fire Hands`,
@@ -75,7 +75,7 @@ function rewardClicked(data){
 }
 
 // Build buttons
-function buildButtons(data, nameList){ 
+function buildButtons(data, nameList){
     for (let i = 0 ; i < data.length ; i++){
         h3Ele = document.createElement('h3');
         h3Ele.innerText = nameList[i];
