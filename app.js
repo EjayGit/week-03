@@ -28,7 +28,7 @@ let stringifiedData;
 
 const nameList = [
     `Two Hands`,
-    `Comb`
+    `Comb`,
     `Fast Hands`,
     `Super Comb`,
     `Fire Hands`,
